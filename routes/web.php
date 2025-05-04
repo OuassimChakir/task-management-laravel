@@ -30,3 +30,4 @@ Route::middleware([
 
 // Tasks 
 Route::get('/tasks', [TaskController::class, 'create'])->name('tasks.create');
+Route::post('/tasks', [TaskController::class, 'store'])->name('tasks.store');
