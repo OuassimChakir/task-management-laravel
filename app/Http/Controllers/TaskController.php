@@ -13,7 +13,7 @@ class TaskController extends Controller
 
     public function create()
     {
-        //
+        return view('pages.tasks.create');
     }
 
     public function store()
