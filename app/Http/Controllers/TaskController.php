@@ -10,7 +10,9 @@ class TaskController extends Controller
 {
     public function index()
     {
-        //
+        // SELECT * FROM tasks
+        $tasks = Task::all();
+        dd($tasks);
     }
 
     public function create()
